@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>infoFires</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<link rel="stylesheet" type="text/css" href="themes/infofires.css">
+		<link rel="stylesheet" type="text/css" href="themes/AndroidHolo.min.css" />
+		<link rel="stylesheet" type="text/css" href="themes/jquery.mobile.structure-1.3.2.min.css" />
+
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.3.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mobile.settings.js"></script>
+		
+		<script type="text/javascript" src="js/infofires.js"></script>
+		
+		<script type="text/javascript" src="js/energize.js"></script>
+	</head>
+	<body>
+		<!-- INDEX -->
+		<div id="indexPage" data-role="page" data-theme="e"><!-- id to tie the page event to this specific page -->
+			<!-- MENÚ  -->
+			<div id="panelMenuIndex" data-role="panel" data-theme="e" data-position="left" data-display="overlay" data-dismissible="true" data-position-fixed="true" data-swipe-close="true" data-animate="true">
+				<ul id="panelMenuIndexUL" data-theme="e" data-divider-theme="e" data-role="listview"></ul>
+			</div>			
+			
+			<!-- OPCIONS  -->
+			<div id="panelOptionsIndex" data-role="panel" data-theme="e" data-position="right" data-display="overlay" data-dismissible="true" data-position-fixed="true" data-swipe-close="true" data-animate="true">
+				<ul id="panelMenuOptionsIndexUL" data-theme="e" data-divider-theme="e" data-role="listview"></ul>
+			</div>
+
+			<!-- CAPÇLERA -->
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" data-theme="e" class="headerInfoFires">
+				<div class="title">
+					<p><img id="btnMenuIndex" class="menu" src="images/icons/ic_launcher_full_menu_light.png" />
+					<img id="btnOptionsIndex" class="options" src="images/icons/ic_action_overflow_header_light.png" /></p>
+				</div>
+			</div>
+
+			<!-- PANTALLA PRINCIPAL -->
+			<div data-role="content" data-theme="a">
+				Hola. Això és l'INDEX<br/>
+				1
+			</div>
+
+				<!-- PEU DE PÀGINA -->
+			<div data-role="footer" data-tap-toggle="false" data-position="fixed" data-theme="e" class="footerInfoFires"><!-- this class makes sure there is a blue line above footer -->
+				footer
+			</div>
+		</div>
+
+
+		<!-- CERCA -->
+		<div id="cercaPage" data-role="page" data-theme="e"><!-- id to tie the page event to this specific page -->
+			<!-- MENÚ  -->
+			<div id="panelMenuCerca" data-role="panel" data-theme="e" data-position="left" data-display="overlay" data-dismissible="true" data-position-fixed="true" data-swipe-close="true" data-animate="true">
+				<ul id="panelMenuCercaUL" data-theme="e" data-divider-theme="e" data-role="listview"></ul>
+			</div>			
+			
+			<!-- OPCIONS  -->
+			<div id="panelOptionsCerca" data-role="panel" data-theme="e" data-position="right" data-display="overlay" data-dismissible="true" data-position-fixed="true" data-swipe-close="true" data-animate="true">
+				<ul id="panelMenuOptionsCercaUL" data-theme="e" data-divider-theme="e" data-role="listview"></ul>
+			</div>
+
+			<!-- CAPÇLERA -->
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" data-theme="e" class="headerInfoFires">
+				<div class="title">
+					<p><img id="btnMenuCerca" class="menu" src="images/icons/ic_launcher_full_menu_light.png" />
+					<img id="btnOptionsCerca" class="options" src="images/icons/ic_action_overflow_header_light.png" /></p>
+				</div>
+			</div>
+
+			<!-- PANTALLA PRINCIPAL -->
+			<div data-role="content" data-theme="a">
+				<input type="search" name="search" id="cerca" class="largerIcon" data-mini="false" value="" />
+			</div>
+
+				<!-- PEU DE PÀGINA -->
+			<div data-role="footer" data-tap-toggle="false" data-position="fixed" data-theme="e" class="footerInfoFires"><!-- this class makes sure there is a blue line above footer -->
+				footer
+			</div>
+		</div>
+	</body>
+</html>

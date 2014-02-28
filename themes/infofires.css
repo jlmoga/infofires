@@ -1,0 +1,87 @@
+@charset 'UTF-8';
+
+@font-face {
+	font-family: fontInfoFires;
+	src: url('../res/Gotham-Book.otf') format('opentype');
+}
+
+body *, .ui-body-e *, .ui-bar-e {
+	font-family: fontInfoFires !important;
+	font-size: 12pt;
+}
+
+.ui-body-e input  {
+	font-size: 18pt !important;
+}
+
+div.headerInfoFires {
+	z-index: 1001;
+	height: 2.85em;
+	border-bottom: 1px solid #222222 !important;
+	margin: 0;
+	padding: 0;
+}
+
+div.footerInfoFires {
+	height: 1.2em;
+	border-top: 1px solid #222222 !important;
+	margin: 0;
+	padding: 0;
+}
+
+img.menu {
+	height: 2.85em;
+	border: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	padding: 0;
+}
+
+img.options {
+	height: 2.85em;
+	border: 0;
+	position: absolute;
+	float: right;
+	right: 0;
+	top: 0;
+	margin: 0;
+	padding: 0;
+}
+
+p.title {
+	vertical-align: middle;
+	height: 2.85em;
+	line-height: 2.85em;
+	border: 0;
+	position: absolute;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	left:20px;
+	font-size: 18pt;
+}
+
+p.panelTextDivider {
+	font-weight: normal !important;
+	color: #0431B4 !important;
+	height: 1.875em !important;
+	font-size: 12pt !important;
+	margin-bottom: -0.25em !important;
+	margin-top: 0.375em !important;
+}
+
+a.panelText {
+	font-size: 12pt !important;
+	margin-bottom: 0em !important;
+	margin-top: 0em !important;
+}
+
+li.headerSpace {
+	height: 1.55em;
+}
+
+.cos {
+	clear:both;
+}
